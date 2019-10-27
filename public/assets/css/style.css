@@ -3,8 +3,11 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
-    background-color: black;
-    color: white;
+}
+
+input {
+    border-radius: 10%;
+    background-color: white;
 }
 
 .dataentry{
@@ -14,16 +17,13 @@ button:focus {
 }
 
  .field {
-  width: 300px;
-  margin: auto;
+  display: inline-block;
+  width: 35%;
   background-color: aliceblue;
   color: darkgray;
   font-weight: bold;
-  padding: 15px 20px;
-  display: inline-block;
   border: 1px solid darkgray;
   border-radius: 07px;
-  box-sizing: border-box;
 }
 
 .buttn {
@@ -41,7 +41,15 @@ button:focus {
    background-image: url("../images/hot-news.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-   border-radius: 12px;
    box-sizing: border-box;
-   border: 1px solid red;
+   border: 1px solid gray;
+   background-size: cover;
+}
+
+h1 {
+    display: inline-block;
+    float: left;
+    padding : 5px 10px 100px 20px;
+    color: white;
+    font-size: 11px;
 }
