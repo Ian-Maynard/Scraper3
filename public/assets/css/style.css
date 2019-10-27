@@ -6,50 +6,44 @@ button:focus {
 }
 
 input {
-    border-radius: 10%;
-    background-color: white;
+padding: 0px 0px 0px 5px;
 }
 
-.dataentry{
-  width: 50%;
-  margin: auto;
-  text-align: center;
-}
+#fieldOne{
+ display: inline-block;
+  margin-top: 30px;
+  margin-left: 30px;
 
- .field {
-  display: inline-block;
-  width: 35%;
-  background-color: aliceblue;
-  color: darkgray;
-  font-weight: bold;
-  border: 1px solid darkgray;
+  width: 25%; 
+  border-radius: 10%;
+  background-color: white;
+  border: 1px solid black;
   border-radius: 07px;
 }
 
 .buttn {
-  width: 75 px;
-  margin: auto;
-  display: inline-block; 
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-left: 5px;
+
+  width: 90px; 
   border-radius: 07px;
-  border: 1px solid darkgray;
+  border: 1px solid black;
   box-sizing: border-box;
 }
 
 .jmbo{
-   margin: auto;
-   color: bisque;
    background-image: url("../images/hot-news.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-   box-sizing: border-box;
-   border: 1px solid gray;
+   border: 1px solid black;
    background-size: cover;
 }
 
 h1 {
     display: inline-block;
-    float: left;
-    padding : 5px 10px 100px 20px;
+    margin-top: 1000px;
     color: white;
-    font-size: 11px;
+    font-size: 15px;
 }
