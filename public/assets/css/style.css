@@ -5,16 +5,15 @@ button:focus {
     outline: none;
 }
 
-input {
-padding: 0px 0px 0px 5px;
-}
+
 
 #fieldOne{
- display: inline-block;
+  display: inline-block;
+  position: relative;
   margin-top: 30px;
   margin-left: 30px;
-
   width: 25%; 
+  padding-left: 10px;
   border-radius: 10%;
   background-color: white;
   border: 1px solid black;
@@ -23,10 +22,8 @@ padding: 0px 0px 0px 5px;
 
 .buttn {
   display: inline-block;
-  margin-top: 30px;
-  margin-left: 30px;
-  padding-left: 5px;
-
+  margin-top: 20px;
+  margin-left: 20px;
   width: 90px; 
   border-radius: 07px;
   border: 1px solid black;
@@ -41,9 +38,13 @@ padding: 0px 0px 0px 5px;
    background-size: cover;
 }
 
-h1 {
-    display: inline-block;
-    margin-top: 1000px;
+
+.msthd{
+    display: block;
+    /* float: left; */
+    margin-top: 20px;
+    margin-left: 30px;
     color: white;
-    font-size: 15px;
+    font-size: 35px;
+    font-weight: bold;
 }
