@@ -15,8 +15,8 @@ var time = []; // Array of articles and Notes for display
 request (sURL, function(error, response, html) { 
   var $ = cheerio.load(html);
   $(".rail-article-title").each(function(i, element)  {
-    var link = $(this).children("a").attr("href");
-    var title = $(this).children("a").text().trim(); // Scrape the title from the DOM
+    var link = $(this).children("a").attr("href");   // Get the link 
+    var title = $(this).children("a").text().trim(); // Get the title 
         bitly.shorten(link).then(function(response) { 
                   link = response.data.url;
                   console.log('Link is : '+link+"  Title: "+title);
