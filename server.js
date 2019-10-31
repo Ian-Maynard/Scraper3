@@ -3,10 +3,10 @@
 
 var express = require("express");
 var bodyParser = require("body-parser");
-var logger = require("morgan");
+// var logger = require("morgan");
 var mongoose = require("mongoose");
 var request = require("request");
-var cheerio = require("cheerio");
+// var cheerio = require("cheerio");
 var Note = require("./models/Note.js");
 var Article = require("./models/Article.js");
 
